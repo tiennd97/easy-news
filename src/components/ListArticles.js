@@ -17,7 +17,7 @@ export const ListArticles = ({ category }) => {
 
   useEffect(() => {
     const fn = async () => {
-      const { data } = await axios.get("http://newsapi.org/v2/top-headlines", {
+      const { data } = await axios.get("https://newsapi.org/v2/top-headlines", {
         params: {
           country: "jp",
           // just a demo api key, do not worry about security
