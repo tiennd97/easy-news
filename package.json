@@ -1,0 +1,22 @@
+{
+  "name": "news-bookmark",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "tiennd97 <tien.nd97@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "clear-build-cache": "rm -rf .cache/ dist/",
+    "dev": "parcel src/index.html",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+  },
+  "dependencies": {
+    "antd": "^4.1.0",
+    "react": "^16.13.1",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.2"
+  }
+}
