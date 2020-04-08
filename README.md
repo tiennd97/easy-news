@@ -1,5 +1,5 @@
 # Project's name: Easy News
-# Live site: https://easy-news.netlify.com/
+# Live site: https://easy-news.now.sh/
 ## チーム: 7
 1. Nguyễn Đăng Tiến
 2. Nguyễn Đức Trung
